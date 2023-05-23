@@ -11,6 +11,10 @@ namespace Livraria_Bem
         /// <summary>
         /// Ponto de entrada principal para o aplicativo.
         /// </summary>
+        /// 
+        //pasta a ser declarada _pasta = @"c:\dados\Contas-receber\";
+     
+        
         [STAThread]
         static void Main()
         {

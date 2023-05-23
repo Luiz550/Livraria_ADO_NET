@@ -59,6 +59,7 @@
             this.ButtonConUsuario.TabIndex = 20;
             this.ButtonConUsuario.Text = "Consultar Usuarios";
             this.ButtonConUsuario.UseVisualStyleBackColor = true;
+            this.ButtonConUsuario.Click += new System.EventHandler(this.ButtonConUsuario_Click);
             // 
             // ButtonEfetuarFiltro
             // 
@@ -68,6 +69,7 @@
             this.ButtonEfetuarFiltro.TabIndex = 19;
             this.ButtonEfetuarFiltro.Text = "button6";
             this.ButtonEfetuarFiltro.UseVisualStyleBackColor = true;
+            this.ButtonEfetuarFiltro.Click += new System.EventHandler(this.ButtonEfetuarFiltro_Click);
             // 
             // TxtFiltro
             // 
@@ -75,6 +77,7 @@
             this.TxtFiltro.Name = "TxtFiltro";
             this.TxtFiltro.Size = new System.Drawing.Size(217, 22);
             this.TxtFiltro.TabIndex = 18;
+            this.TxtFiltro.TextChanged += new System.EventHandler(this.TxtFiltro_TextChanged);
             // 
             // label1
             // 
@@ -105,6 +108,7 @@
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.Size = new System.Drawing.Size(473, 282);
             this.dataGridView1.TabIndex = 15;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // ButtonEsmprestim
             // 
@@ -123,6 +127,7 @@
             this.ButtonLivros.TabIndex = 13;
             this.ButtonLivros.Text = "Livros";
             this.ButtonLivros.UseVisualStyleBackColor = true;
+            this.ButtonLivros.Click += new System.EventHandler(this.ButtonLivros_Click);
             // 
             // ButtonVenda
             // 
@@ -161,6 +166,7 @@
             this.Controls.Add(this.Cadastrar_Usuario);
             this.Name = "Aplicacao";
             this.Text = "Aplicacao";
+            this.Load += new System.EventHandler(this.Aplicacao_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -52,34 +52,36 @@
     <Compile Include="Aplicacao.Designer.cs">
       <DependentUpon>Aplicacao.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cadastrar_Livros.cs">
+    <Compile Include="Cadastro_Cliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cadastrar_Livros.Designer.cs">
-      <DependentUpon>Cadastrar_Livros.cs</DependentUpon>
+    <Compile Include="Cadastro_Cliente.Designer.cs">
+      <DependentUpon>Cadastro_Cliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Cadastrar_Usuario.cs">
+    <Compile Include="Cadastro_Livros.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cadastrar_Usuario.Designer.cs">
-      <DependentUpon>Cadastrar_Usuario.cs</DependentUpon>
+    <Compile Include="Cadastro_Livros.Designer.cs">
+      <DependentUpon>Cadastro_Livros.cs</DependentUpon>
     </Compile>
+    <Compile Include="Cliente.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Livros.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Aplicacao.resx">
       <DependentUpon>Aplicacao.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cadastrar_Livros.resx">
-      <DependentUpon>Cadastrar_Livros.cs</DependentUpon>
+    <EmbeddedResource Include="Cadastro_Cliente.resx">
+      <DependentUpon>Cadastro_Cliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Cadastrar_Usuario.resx">
-      <DependentUpon>Cadastrar_Usuario.cs</DependentUpon>
+    <EmbeddedResource Include="Cadastro_Livros.resx">
+      <DependentUpon>Cadastro_Livros.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
